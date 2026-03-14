@@ -23,3 +23,47 @@ body {
 .navbar {
     padding: 0.5rem 0;
 }
+
+#grid-container {
+    margin-top: 10px;
+}
+
+#feed-container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    
+    #view-grid, #view-feed {
+        font-size: 1.5rem !important;
+    }
+
+    
+    .g-3, .gx-3 {
+        --bs-gutter-x: 0.5rem;
+        --bs-gutter-y: 0.5rem;
+    }
+    
+    
+    .card {
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-header h5 {
+        font-size: 1rem !important;
+    }
+    
+    .navbar-brand span {
+        font-size: 1.1rem;
+    }
+}
